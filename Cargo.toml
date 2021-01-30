@@ -1,0 +1,24 @@
+[package]
+name = "mdbook-chart"
+version = "0.1.0"
+authors = ["George"]
+edition = "2018"
+description = "A preprocessor and cli tool for mdbook to show chart use C3.js."
+license = "MIT"
+documentation = "https://crates.io/crates/mdbook-chart"
+homepage = "https://crates.io/crates/mdbook-chart"
+repository = "https://github.com/knightflower1989/mdbook-chart"
+readme = "README.md"
+keywords = ["mdbook", "markdown", "chart", "C3.js"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.1"
+mdbook = "0.4.1"
+anyhow = "1.0.32"
+serde = "1.0.114"
+serde_derive = "1.0.114"
+serde_json = "1.0.57"
+regex = "1"
+uuid = { version = "0.8", features = ["serde", "v4"] }
