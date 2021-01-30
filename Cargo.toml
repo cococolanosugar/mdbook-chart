@@ -9,7 +9,7 @@ documentation = "https://crates.io/crates/mdbook-chart"
 homepage = "https://crates.io/crates/mdbook-chart"
 repository = "https://github.com/knightflower1989/mdbook-chart"
 readme = "README.md"
-keywords = ["mdbook", "markdown", "chart", "C3.js"]
+keywords = ["mdbook", "markdown", "chart", "C3"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
