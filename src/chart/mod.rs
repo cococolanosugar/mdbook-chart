@@ -123,7 +123,7 @@ mod tests {
 ```chart
 {
     "data": {
-    "type": "foo",
+    "type": "bar",
         "columns": [
             ["data1", 30, 200, 100, 400, 150, 250],
             ["data2", 50, 20, 10, 40, 15, 25]
@@ -163,7 +163,7 @@ mod tests {
 {% chart %}
 {
     "data": {
-        "type": "foo",
+        "type": "bar",
         "columns": [
             ["data1", 30, 200, 100, 400, 150, 250],
         ["data2", 50, 20, 10, 40, 15, 25]
@@ -213,7 +213,7 @@ mod tests {
 c3.generate(
 {"bindto":"#chart-bbc841c7-369e-462e-9132-08f6cd78cfe0",
     "data": {
-    "type": "foo",
+    "type": "bar",
         "columns": [
             ["data1", 30, 200, 100, 400, 150, 250],
             ["data2", 50, 20, 10, 40, 15, 25]
@@ -273,7 +273,7 @@ c3.generate(
 c3.generate(
 {"bindto":"#chart-13cf1dc8-0793-442a-88e0-c9b490f11efb",
     "data": {
-        "type": "foo",
+        "type": "bar",
         "columns": [
             ["data1", 30, 200, 100, 400, 150, 250],
         ["data2", 50, 20, 10, 40, 15, 25]
