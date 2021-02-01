@@ -25,8 +25,8 @@ create-missing = false
 [preprocessor.chart]
 
 [output.html]
-additional-js = ["d3.min.js", "c3.min.js"]
-additional-css = ["c3.min.css"]
+additional-js = ["assets/d3/d3.min.js", "assets/c3/c3.min.js"]
+additional-css = ["assets/c3/c3.min.css"]
 
 [output.html.fold]
 enable = true

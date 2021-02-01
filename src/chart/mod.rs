@@ -99,9 +99,9 @@ fn gen_html(mat_str: &str, empty_str_vec: Vec<&str>) -> String {
     }
 
     let link = r###"
-<link rel="stylesheet" href="/c3.min.css">
-<script src="/d3.min.js"></script>
-<script src="/c3.min.js"></script>
+<link rel="stylesheet" href="/assets/c3/c3.min.css">
+<script src="/assets/d3/d3.min.js"></script>
+<script src="/assets/c3/c3.min.js"></script>
 "###;
     let id = format!("chart-{}", Uuid::new_v4());
     let div = format!("<div id=\"{}\"></div>", id);
