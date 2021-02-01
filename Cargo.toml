@@ -1,6 +1,6 @@
 [package]
 name = "mdbook-chart"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["George"]
 edition = "2018"
 description = "A preprocessor and cli tool for mdbook to show chart use C3.js."
