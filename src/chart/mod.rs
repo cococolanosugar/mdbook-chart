@@ -34,7 +34,7 @@ impl Chart {
 
 impl Preprocessor for Chart {
     fn name(&self) -> &str {
-        "chart-preprocessor"
+        "chart"
     }
 
     fn run(&self, ctx: &PreprocessorContext, mut book: Book) -> Result<Book, Error> {
